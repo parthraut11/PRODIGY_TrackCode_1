@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenLeaf - Farm Fresh Produce</title>
+  <link rel="stylesheet" href="landingpage.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="title">GreenLeaf</div>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Products Section -->
+  <section id="products" class="products-section">
+    <h1>Our Products</h1>
+    <div class="product-grid">
+      <!-- Row 1 -->
+      <div class="product-card">
+        <img src="images/tomato.jpg" alt="Tomatoes">
+        <h2>Fresh Tomatoes</h2>
+        <p>Juicy, organic, and hand-picked tomatoes. Perfect for your salads and meals.</p>
+        <p class="price">₹80/kg</p>
+      </div>
+      <div class="product-card">
+        <img src="images/potato.jpg" alt="Potatoes">
+        <h2>Organic Potatoes</h2>
+        <p>Freshly harvested potatoes, ideal for any dish.</p>
+        <p class="price">₹55/kg</p>
+      </div>
+      <div class="product-card">
+        <img src="images/carrots2.jpg" alt="Carrots">
+        <h2>Crunchy Carrots</h2>
+        <p>Bright orange, crisp carrots rich in vitamins.</p>
+        <p class="price">₹40/kg</p>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="product-card">
+        <img src="images/spinach.jpg" alt="Spinach">
+        <h2>Fresh Spinach</h2>
+        <p>Locally grown, nutrient-packed leafy greens.</p>
+        <p class="price">₹120/bundle</p>
+      </div>
+      <div class="product-card">
+        <img src="images/bellpeppers.jpg" alt="Capsicum">
+        <h2>Bell Peppers</h2>
+        <p>Colorful and crunchy capsicums for your recipes.</p>
+        <p class="price">₹180/kg</p>
+      </div>
+      <div class="product-card">
+        <img src="images/cabbage.jpg" alt="Cabbage">
+        <h2>Green Cabbage</h2>
+        <p>Fresh and crispy cabbage for a variety of dishes.</p>
+        <p class="price">₹30/each</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <h1>Our Services</h1>
+    <div class="services-list">
+      <div class="service">
+        <h2>Farm-to-Table Delivery</h2>
+        <p>Fresh produce delivered straight to your doorstep.</p>
+      </div>
+      <div class="service">
+        <h2>Custom Orders</h2>
+        <p>Place bulk or custom orders for events and businesses.</p>
+      </div>
+      <div class="service">
+        <h2>Seasonal Produce</h2>
+        <p>Get access to the freshest seasonal fruits and vegetables.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h1>Contact Us</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
